@@ -1,0 +1,65 @@
+{
+  "episodes": 600,
+  "eval_episodes": 80,
+  "episode_length": 80,
+  "replay_buffer_size": 200000,
+  "warmup_steps": 8000,
+  "batch_size": 256,
+  "updates_per_step": 3,
+  "epsilon_decay_steps": 30000,
+  "target_tau": 0.003,
+  "matd3_policy_delay": 2,
+  "matd3_target_noise_std": 0.02,
+  "matd3_target_noise_clip": 0.05,
+  "user_actor_lr": 8e-05,
+  "server_actor_lr": 4e-05,
+  "critic_lr": 8e-05,
+  "user_actor_update_interval": 1,
+  "server_actor_update_interval": 2,
+  "critic_update_interval": 1,
+  "user_gumbel_tau": 0.45,
+  "user_residual_scale": 0.12,
+  "server_price_residual_scale": 0.04,
+  "server_util_residual_scale": 0.15,
+  "server_alloc_residual_scale": 0.02,
+  "gaussian_noise_std": 0.025,
+  "actor_l2": 0.0004,
+  "critic_l2": 8e-05,
+  "grad_clip_norm": 1.0,
+  "train_arrival_scales": [
+    0.8,
+    1.0,
+    1.2,
+    1.4,
+    1.6
+  ],
+  "selection_arrival_scales": [
+    1.0,
+    1.2,
+    1.4,
+    1.6
+  ],
+  "selection_eval_episodes": 12,
+  "selection_interval": 5,
+  "user_actor_hidden_dims": [
+    256,
+    256,
+    160
+  ],
+  "server_actor_hidden_dims": [
+    224,
+    224,
+    128
+  ],
+  "role_agnostic_actor_hidden_dims": [
+    384,
+    384,
+    320
+  ],
+  "critic_hidden_dims": [
+    512,
+    512,
+    256
+  ],
+  "device": "cuda"
+}

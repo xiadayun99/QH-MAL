@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "QH-MAL Reproducibility Package"
+type: software
+version: 1.1.0
+date-released: 2026-08-23
+authors:
+  - family-names: Xia
+    given-names: Yun
+  - family-names: Lin
+    given-names: Yijing
+  - family-names: Pan
+    given-names: Lichuan
+  - family-names: Gao
+    given-names: Zhipeng
+preferred-citation:
+  type: article
+  title: "Queue-Aware Pricing and Offloading for Mobile Edge Computing with Heterogeneous Multi-Agent Learning"
+  authors:
+    - family-names: Xia
+      given-names: Yun
+    - family-names: Lin
+      given-names: Yijing
+    - family-names: Pan
+      given-names: Lichuan
+    - family-names: Gao
+      given-names: Zhipeng
+  year: 2026

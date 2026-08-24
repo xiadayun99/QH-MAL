@@ -1,0 +1,10 @@
+Method,Avg Delay Mean,Avg Delay 95CI Half Width,P95 Delay Mean,P95 Delay 95CI Half Width,Energy Mean,Energy 95CI Half Width,Payment Mean,Payment 95CI Half Width,Server Return Mean,Server Return 95CI Half Width,Fairness Mean,Fairness 95CI Half Width,Queue Backlog Million Mean,Queue Backlog Million 95CI Half Width,Decision Time ms Mean,Decision Time ms 95CI Half Width
+Random Offloading,1.365,0.001,2.296,0.003,0.0809,0.0003,0.633,0.001,3.165,0.003,1.0000,0.0000,0.00,0.00,0.07,0.00
+Greedy Offloading,1.292,0.001,1.869,0.001,0.0233,0.0001,0.972,0.000,4.858,0.002,1.0000,0.0000,0.00,0.00,0.12,0.00
+Fixed-Pricing Queue-Aware Greedy,1.207,0.002,1.700,0.003,0.0354,0.0001,0.910,0.001,4.548,0.006,1.0000,0.0000,0.00,0.00,0.13,0.00
+DPP Joint Pricing-Offloading,1.183,0.001,1.697,0.002,0.0397,0.0002,1.436,0.002,7.178,0.012,1.0000,0.0000,0.00,0.00,18.27,0.31
+Stackelberg Joint Pricing-Offloading,1.194,0.001,1.716,0.002,0.0383,0.0002,1.606,0.002,8.031,0.011,1.0000,0.0000,0.00,0.00,17.65,0.35
+Queue-Unaware QH-MAL,1.374,0.002,2.065,0.019,0.0330,0.0022,0.890,0.014,4.449,0.069,0.9873,0.0082,20.74,0.83,2.29,0.03
+Queue-Aware MADDPG,1.338,0.005,2.029,0.023,0.0334,0.0027,1.144,0.031,5.718,0.151,0.9916,0.0083,2.66,0.19,2.32,0.04
+Queue-Aware MATD3,1.348,0.020,2.034,0.025,0.0330,0.0026,1.160,0.020,5.800,0.099,0.9943,0.0085,2.81,0.20,2.32,0.04
+Proposed Method,1.345,0.007,2.032,0.029,0.0331,0.0030,1.159,0.024,5.794,0.118,0.9912,0.0077,2.80,0.23,2.32,0.03

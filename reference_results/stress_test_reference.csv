@@ -1,0 +1,3 @@
+Seed,Horizon Slots,Arrival Scale,Mean Backlog Cycles,Max Occupancy Percent,Avg Delay Seconds,P95 Delay Seconds,CPU Utilization Percent,Overflow Count,Fallback Ratio Percent
+7,10000,1.6,3354000,1.794,1.650,2.738,96.85,0,21.51
+

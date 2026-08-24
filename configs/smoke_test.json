@@ -1,0 +1,22 @@
+{
+  "episodes": 2,
+  "eval_episodes": 2,
+  "episode_length": 5,
+  "replay_buffer_size": 64,
+  "warmup_steps": 4,
+  "batch_size": 4,
+  "updates_per_step": 1,
+  "selection_eval_episodes": 1,
+  "selection_interval": 1,
+  "curve_eval_episodes": 1,
+  "curve_eval_interval": 10,
+  "train_arrival_scales": [1.0],
+  "selection_arrival_scales": [1.0],
+  "user_actor_hidden_dims": [16],
+  "server_actor_hidden_dims": [16],
+  "role_agnostic_actor_hidden_dims": [24],
+  "critic_hidden_dims": [24],
+  "show_progress": false,
+  "device": "cpu"
+}
+

@@ -1,0 +1,9 @@
+Metric,QH-MAL,QU-QH-MAL,Relative Change Percent,Positive Favors QH-MAL
+Average delay,1.3452,1.3741,2.10,true
+P95 delay,2.0315,2.0654,1.64,true
+User payment,1.1592,0.8904,-30.19,true
+Server return,5.7942,4.4494,30.22,true
+Backlog cycles,2800000,20700000,86.49,true
+Wait delay,0.3165,0.3267,3.11,true
+Max occupancy percent,0.1768,1.1724,84.92,true
+Fallback ratio percent,7.876,7.727,-1.67,true
