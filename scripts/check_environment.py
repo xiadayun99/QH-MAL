@@ -18,7 +18,7 @@ from paper_mec.config import MECConfig
 EXPECTED_PACKAGES = {
     "numpy": "2.2.5",
     "pandas": "2.3.3",
-    "scipy": "1.17.0",
+    "scipy": "1.15.3",
     "matplotlib": "3.10.8",
     "seaborn": "0.13.2",
     "torch": "2.11.0",
