@@ -61,7 +61,12 @@ def test_straight_through_user_actions_are_hard_but_differentiable() -> None:
     logits = trainer._prior_user_logits(user_obs) + trainer.train_cfg.user_residual_scale * residual
     action_st = trainer._straight_through_user_actions(logits)
 
-    torch.testing.assert_close(action_st.sum(dim=-1), torch.ones(cfg.num_users))
+    action_sums = action_st.sum(dim=-1)
+    torch.testing.assert_close(
+        action_sums,
+        torch.ones_like(action_sums),
+    )
+    assert action_st.shape == logits.shape
     assert torch.all((action_st == 0.0) | (action_st == 1.0))
 
     weights = torch.arange(
